@@ -19,4 +19,8 @@ using systems like Monit or Gearman.
 For instance, proxy passing is bese done by the web server, while the  PHP
 script will turn out to be messy solution (handling request types, errors, etc.).
 
+=> Interface Bloat is another thing to watch out for. Your interfaces shouln't
+become so large that they are better replaced by a single class. If a class isn't
+going to be reused often, maybe letting it remain a separate class is a good idea.
+
 */
