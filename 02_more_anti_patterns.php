@@ -23,4 +23,14 @@ script will turn out to be messy solution (handling request types, errors, etc.)
 become so large that they are better replaced by a single class. If a class isn't
 going to be reused often, maybe letting it remain a separate class is a good idea.
 
+The last anti-pattern belongs to the family of 'Swiss Army Knife' or 'Kitchen Sink'
+patterns, which try to stuff too much funtionality into one entity.
+
+=> Don't plan for a feature that's not needed right away, and for God's sake, don't
+start to architect it for "scale" before the need arises.
+
+=> Development should be combined with Operations (=DevOps) because it results in  
+higher-quality systems.
+
+
 */
