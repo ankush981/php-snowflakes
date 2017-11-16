@@ -38,5 +38,17 @@ and accelerate(), then there's a problem. A better design is to allow for checki
 that the car is started, and if not, start it from inside of other functions by
 calling the start() function.
 
+=> The big rewrite is a tempting concept but isn't necessariliy good. It isn't
+going to improve the existing developers, and will incur massive costs for the
+business. Better to rewrite small portions of the code one at a time.
 
+=> Analysis Paralysis. Do not try to get the perfect solution upfront, but focus
+on perfecting a working solution slowly.
+
+=> Bikeshedding means spending time and energy over trivial issues. For example,
+should the logs toolbar be green or blue?
+
+=> Optimization doesn't mean wrangling with data structures as you write code.
+Optimzation are always data-led (with the help of tools like XDebug), and 
+come only after a clean code base has been established.
 */
