@@ -32,5 +32,11 @@ start to architect it for "scale" before the need arises.
 => Development should be combined with Operations (=DevOps) because it results in  
 higher-quality systems.
 
+=> Sequential coupling: This happens when methods in a class need to be executed
+in a particular order. For instace, if a Car class has separate methods start()
+and accelerate(), then there's a problem. A better design is to allow for checking
+that the car is started, and if not, start it from inside of other functions by
+calling the start() function.
+
 
 */
