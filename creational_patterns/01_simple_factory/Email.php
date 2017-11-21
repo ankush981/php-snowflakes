@@ -1,5 +1,5 @@
 <?php
-require 'Notifier.php';
+require_once 'Notifier.php';
 
 /**
  * Class for email notifications

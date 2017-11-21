@@ -12,5 +12,5 @@ abstract class Notifier {
     }
 
     abstract public function validateTo(): bool;
-    abstract public function sendNotfication(): string;
+    abstract public function sendNotification(): string;
 }

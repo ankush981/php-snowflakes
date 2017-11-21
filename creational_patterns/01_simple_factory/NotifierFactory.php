@@ -19,7 +19,7 @@ class NotifierFactory
                 return new SMS($to);
                 break;
             case 'Email':
-                return new Email($to, 'Junade');
+                return new Email($to, 'Simpleton');
                 break;
             default:
                 throw new Exception("Notifier invalid.");

@@ -1,6 +1,5 @@
 <?php
-
-require 'Notifier.php';
+require_once 'Notifier.php';
 
 /**
  * The SMS Notifier class
