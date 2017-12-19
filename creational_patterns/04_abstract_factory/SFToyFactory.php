@@ -11,7 +11,7 @@ class SFToyFactory implements ToyFactory {
         return new SFMazeToy();
     }
 
-    public function puzzle() {
+    public function makePuzzle() {
         return new SFPuzzleToy();
     }
 }

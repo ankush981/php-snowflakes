@@ -11,7 +11,7 @@ class UKToyFactory implements ToyFactory {
         return new UKMazeToy();
     }
 
-    public function puzzle() {
+    public function makePuzzle() {
         return new UKPuzzleToy();
     }
 }
