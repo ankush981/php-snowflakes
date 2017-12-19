@@ -3,7 +3,7 @@ require_once 'MazeToy.php';
 
 class UKMazeToy extends MazeToy {
     private $size;
-    private $picureName;
+    private $pictureName;
 
     public function __construct() {
         $this->size = 9;
